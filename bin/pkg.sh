@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @Author:  Cool-Pan
-# @Version: v11.4.9
+# @Version: v11.5.0
 # @Mail:    ivlioioilvi@gmail.com
 
 # This color requires special attention from the user (显示此颜色需要特别注意).
@@ -100,7 +100,7 @@ sudo pacman -S $(echo "
         Email_IRC_XMPP_Clients="thunderbird"
         # 远程桌面
         Remote_Desktop="teamviewer"
-        # 实时聊天工具
+        # 即时聊天工具
         IM="electronic-wechat"
     # 新闻, RSS 和博客
         # 新闻聚合
@@ -151,7 +151,7 @@ sudo pacman -S $(echo "
         # 终端多路复用
         Terminal_multiplexers="tmux"
     # 文字输入
-        # 输入法 (框架)
+        # 输入法框架
         Input_Methods="fcitx fcitx-gtk2 fcitx-gtk3 fcitx-qt5 kcm-fcitx"
         # 简体中文
         Simplified_Chinese="fcitx-rime"
@@ -201,7 +201,7 @@ sudo pacman -S $(echo "
     File_Searching="fd tree baloo"
     # 全文检索
     Full_Text_Searching="ripgrep fzf"
-    # 替代 cat, ls, man
+    # 工具替换  cat ls  man
     CAT_LS_MAN="bat exa tldr"
     # 文字编辑
         # Emacs 风格的文本编辑器
@@ -211,7 +211,7 @@ sudo pacman -S $(echo "
         # 图形化的编辑器
         Graphical_Editors="visual-studio-code-bin"
     # 办公
-        # 办公套件 (不知 wps-office ttf-wps-fonts 是否可信)
+        # 办公套件
         Office_Suites="libreoffice-fresh"
     # 文件转换
     Document_Converters="pandoc dos2unix figlet"
@@ -263,26 +263,26 @@ sudo pacman -S $(echo "
 
 ##### Programming (编程) #####
     # 虚拟化
+        # 容器
+        Container="docker"
         # 虚拟机管理程序
         Hypervisors="virtualbox virtualbox-host-dkms virtualbox-guest-iso"
         # Nspawn 相关工具
         Nspawn="debootstrap debian-archive-keyring"
-        # 容器
-        Container="docker"
     # 数据库及其管理工具
     Database_Tools="mariadb dbeaver"
     # 版本控制系统
     Version_Control_Systems="git tig"
     # 自动化构建工具
     Build_Automation="cmake gradle maven"
-    # 各语言工具  JSON ⊢----shell----⊣   Tag
+    # 各语言工具   JSON ⊢----shell----⊣  Tag
     Language_Tools="jq shellcheck shfmt ctags"
-    # API 文档
+    # API 文档浏览器
     API_Document="zeal"
     # 编程语言
-        # 作为软件依赖的语言             ⊢------------Python3------------⊣    ⊢------------Python3------------⊣   Haskell
+        # 作为软件依赖的语言             ⊢------------Python3------------⊣    ⊢------------Python2------------⊣   Haskell
         As_A_System_Dependent_Language="python python-pip python-setuptools python2 python2-pip python2-setuptools ghc"
-        # 我的主要语言     ⊢------------C-------------⊣  ⊢--------Java--------⊣   ⊢--JS--⊣  TypeScript
+        # 我的主要语言     ⊢------------C-------------⊣   ⊢-----------Java-----------⊣   ⊢--JS--⊣  TypeScript
         My_Main_Language="base-devel gdb clang lld lldb jdk8-openjdk jdk-openjdk kotlin nodejs npm typescript"
         # 其它会用到的语言           C#   ⊢--Go--⊣   Rust  ⊢--Ruby--⊣   Lua   DOT
         Other_Languages_To_Be_Used="mono go go-tools rust ruby rubygems lua graphviz"
@@ -296,7 +296,7 @@ sudo pacman -S $(echo "
 ##### Programming (编程) #####
     # 数字发行平台
     Digital_Distribution="steam"
-    # 游戏模拟器
+    # 游戏平台模拟器
     Video_Game_Platform_Emulators="ppsspp"
     # 开放世界的沙盒游戏
     Open_World_Game="hmcl"
