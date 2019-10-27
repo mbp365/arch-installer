@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @Author:  Cool-Pan
-# @Version: v11.5.0
+# @Version: v11.5.1
 # @Mail:    ivlioioilvi@gmail.com
 
 # This color requires special attention from the user (显示此颜色需要特别注意).
@@ -214,7 +214,7 @@ sudo pacman -S $(echo "
         # 办公套件
         Office_Suites="libreoffice-fresh"
     # 文件转换
-    Document_Converters="pandoc dos2unix figlet"
+    Document_Converters="pandoc dos2unix figlet qrencode"
     # 阅读和查看
         # 查看 PDF, DjVu 文档
         PDF_DjVu="okular"
