@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @Author:  Cool-Pan
-# @Version: v11.5.3
+# @Version: v11.5.4
 # @Mail:    ivlioioilvi@gmail.com
 
 # This color requires special attention from the user (显示此颜色需要特别注意).
@@ -177,6 +177,8 @@ sudo pacman -S $(echo "
         System_Monitors="glances python-bottle hddtemp sysstat conky"
         # 系统信息查看
         System_Information_Viewers="neofetch kinfocenter"
+        # 硬件信息查看
+        Hardware_Information_Viewers="dmidecode"
         # 蓝牙管理
         Bluetooth_Management="bluez bluez-utils bluedevil"
         # 电源管理

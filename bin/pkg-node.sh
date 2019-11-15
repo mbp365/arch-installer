@@ -45,4 +45,7 @@ if [[ "$yes_or_no_1" == y ]]; then
     npm -g install remark-cli
         # JSON
     npm -g install fixjson
+
+    # 安裝 pinyin (汉字拼音转换工具)
+    npm -g install pinyin
 fi
