@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @Author:  Cool-Pan
-# @Version: v11.5.4
+# @Version: v11.5.5
 # @Mail:    ivlioioilvi@gmail.com
 
 # This color requires special attention from the user (显示此颜色需要特别注意).
@@ -163,7 +163,7 @@ sudo pacman -S $(echo "
         # 分区工具
         Partitioning_Tools="parted partitionmanager"
         # 格式化工具
-        Formatting_Tools="btrfs-progs dosfstools exfat-utils f2fs-tools nilfs-utils ntfs-3g"
+        Formatting_Tools="btrfs-progs dosfstools mtools exfat-utils f2fs-tools nilfs-utils ntfs-3g"
         # 挂载工具
         Mount_Tools="udisks2 gptfdisk"
         # 磁盘使用情况显示
