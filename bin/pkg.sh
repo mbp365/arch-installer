@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @Author:  Cool-Pan
-# @Version: v11.5.5
+# @Version: v11.5.6
 # @Mail:    ivlioioilvi@gmail.com
 
 # This color requires special attention from the user (显示此颜色需要特别注意).
@@ -32,7 +32,7 @@ sudo pacman -S $(echo "
         # NVIDIA 显卡
         Nvidia="nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings"
         # NVIDIA Optimus
-        # NVIDIA_Optimus (bumblebee bbswitch-dkms)
+        #NVIDIA_Optimus (bumblebee bbswitch-dkms)
         # Vulkan
         Vulkan="vulkan-icd-loader lib32-vulkan-icd-loader"
     # X Window 系统
@@ -68,7 +68,7 @@ sudo pacman -S $(echo "
             # 表情符号
             Emoji_And_Symbols="noto-fonts-emoji ttf-joypixels"
         # 窗口合成
-        X_Compositor="compton compton-conf-git"
+        X_Compositor="picom compton-conf-git"
         # 壁纸及壁纸设置工具
         Wallpaper_Setters="feh jpegexiforient archlinux-wallpaper"
         # 图标主题
