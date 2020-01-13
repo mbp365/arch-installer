@@ -326,9 +326,17 @@ sudo pacman -S $(echo "
 " | grep "=" | cut -d "=" -f 2 | xargs echo)
 sync
 
+# nvidia-utils
+sudo cp -rf "/usr/share/X11/xorg.conf.d/10-nvidia-drm-outputclass.conf" "/etc/X11/xorg.conf.d/"
+sudo sed -i '5a\ \ \ \ Option "PrimaryGPU" "yes"' "/etc/X11/xorg.conf.d/10-nvidia-drm-outputclass.conf"
+sudo mkinitcpio -P
+
 # bumblebee
-# sudo gpasswd -a $USER bumblebee
-# sudo systemctl enable bumblebeed.service
+#sudo gpasswd -a $USER bumblebee
+#sudo systemctl enable bumblebeed.service
+
+# light
+sudo gpasswd -a $USER video
 
 # sddm
 sudo systemctl enable sddm.service
