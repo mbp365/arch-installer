@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @Author:  Cool-Pan
-# @Version: v11.5.6
+# @Version: v11.5.7
 # @Mail:    ivlioioilvi@gmail.com
 
 # This color requires special attention from the user (显示此颜色需要特别注意).
@@ -219,7 +219,7 @@ sudo pacman -S $(echo "
     Document_Converters="pandoc dos2unix figlet qrencode"
     # 阅读和查看
         # 查看 PDF, DjVu 文档
-        PDF_DjVu="okular"
+        PDF_DjVu="okular pdfgrep"
         # 查看 CHM 文档
         CHM_DOC="kchmviewer"
         # 电子书
@@ -274,7 +274,7 @@ sudo pacman -S $(echo "
     # 数据库及其管理工具
     Database_Tools="mariadb dbeaver"
     # 版本控制系统
-    Version_Control_Systems="git tig"
+    Version_Control_Systems="git tig cvs subversion"
     # 自动化构建工具
     Build_Automation="cmake gradle maven"
     # 各语言工具   JSON ⊢----shell----⊣  Tag
@@ -289,7 +289,7 @@ sudo pacman -S $(echo "
         # 其它会用到的语言           C#   ⊢--Go--⊣   Rust  ⊢--Ruby--⊣   Lua   DOT
         Other_Languages_To_Be_Used="mono go go-tools rust ruby rubygems lua graphviz"
     # 集成开发工具
-    Java___IDE="intellij-idea-ultimate-edition intellij-idea-ultimate-edition-jre"
+    Java___IDE="intellij-idea-ultimate-edition intellij-idea-ultimate-edition-jre jadx"
     C_Cpp__IDE="clion clion-jre clion-cmake clion-gdb clion-lldb"
     Python_IDE="pycharm-professional"
     Web____IDE="webstorm webstorm-jre"
